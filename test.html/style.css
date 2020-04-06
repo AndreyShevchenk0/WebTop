@@ -1,0 +1,104 @@
+ body{
+    background-image:url(images/1.jpeg);
+ }
+
+ a{
+   color:red;
+   font-size:14px ; 
+ }
+
+ div{
+   color:#00c300;
+   font-size:14px ;
+ }
+
+ #moya_ssilka{
+    color:yellow;
+    font-size:14px ;
+ }
+
+ #testovaya_ssilka{
+    font-size:14px;
+    color:#8737FF
+ }
+
+ .human{
+    color:#4c8BF5;
+    font-size:14px ;
+ }
+
+ .animal{
+    color:#FFCE45;
+    font-size:14px ;
+ }
+
+ .lion{
+    color: tomato;
+ }
+ 
+ .monkey{
+    color: #4c8BF5;
+ }
+
+ .fish{
+    color: aqua;
+ }
+
+ .message{
+    color:#000000;
+    background-color:#747474;
+    border:1px solid #3b7936;
+    border-radius: 1px;
+    font-size:14px;
+    margin-left:50px;
+    margin-right:50px;
+    margin-bottom: 15px;
+    padding:10px;
+ }
+
+ .success{
+    background-color:rgb(25, 73, 161);
+    color:#ffffff;
+ }
+
+ .fail{
+    background-color:#D65144;
+    color:#ffffff;
+ }
+
+ .info{
+    background-color:#3b7936;
+    color:#000000;
+ }
+
+ .warning{
+    background-color:#FFCE43;
+    color:#000000;
+ }
+
+ div:hover{
+    border:2px solid #000000
+ }
+
+ #test{
+    background-color:#1BA261;
+    color:#ffffff;
+    padding:15px;
+    margin:15 ;
+    border:7px solid red;
+    border-radius: 100;
+    opacity: 0.9;
+    box-shadow:10px 10px 10px #2F3841;
+    width: 100%;
+    height: 500px;
+    display:block;
+    text-align: center;
+    font-size:30px;
+    font-weight: 900;
+    transform:rotate(-45deg)scale(0.3);
+    transition:5s all;
+ }
+
+ #test:hover{
+    transform:rotate(45);scale: (0.3);
+ }

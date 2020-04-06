@@ -1,0 +1,129 @@
+body {
+    font-family: Georgia, Times, 'Times New Roman', serif, sans-serif;
+    color: #000;
+    font-size: 16px;/*размер текста*/
+    align-items: center;/*текст стает в центре блока от краев верха и низа*/
+
+}
+
+.header {
+    background: #f0f2f8;/*серий цвет*/
+    padding-top: 47px;/*сдвигаем лого  вниз на 47*/
+    padding-bottom: 90px;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0; /* обнуляем все заголовки*/ 
+    padding: 0;
+}
+
+.container {
+    max-width: 1390px;/*контейнер бутет тянуться не 1390*/
+    margin: 0 auto;/*ставим контейнер по центру*/
+    position: relative;/*стенки контейнера родительские*/
+}
+
+.nav {
+    display: flex;/*вистраиваем елементи хедера нав в строку*/
+    padding-left: 3%;/*отступи от края елемента на 3%*/
+    padding-right: 3%;
+    align-items: center;/*текст стает в центре блока от краев верха и низа*/
+
+}
+
+.logo {
+    width: 84px;
+}
+
+.phone {
+    margin-left: auto;/*сдвигаем текст в право до конца*/
+}
+
+.phone a{
+    color: #282828;/* изменили цвец текста в ссилке*/
+    text-decoration: none;/* убираем ссилки*/
+}
+
+.email {
+    margin-left: 67px;/*сдвигаем телефон от имейла на 67 px*/
+}
+
+.email a {
+    color: #282828;/* изменили цвец текста в ссилке*/
+    text-decoration: none;/* убираем ссилки*/
+}
+
+.offer {
+    width: 470px;
+    position: absolute;
+    left: 972px;
+    top: 100px;
+}
+
+.offer h1{
+    font-size: 70px;
+    font-family: 'Times New Roman' serif;
+    font-weight: normal;
+    line-height: 1.05em;
+    margin-bottom: 40px;
+}
+
+.header-content {
+    margin-top: 85px;
+}
+
+.offer p {
+    color: #000;
+    font-size: 18px;
+    width: 355px;
+    line-height: 1.7em;
+    margin-left: 102px;
+}
+
+.btn {
+    color: #e42f44;
+    font-size: 15px;
+    background: none;/*обнуляем*/
+    border: none;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    margin-left: 102px;
+    margin-top: 32px;
+}
+
+.btn .arrow {/*круглая кнопка*/
+    color:#e42f44;
+    border: 1px solid #e42f44;
+    width: 50px;
+    height: 50px;
+    display: block;
+    border-radius: 50%;
+    line-height: 50px;
+    margin-right: 20px;
+}
+
+.added {
+    margin-top: 60px;
+    margin-bottom: 90px;
+}
+
+.add-text {
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 0.04em;
+    margin-left: auto;
+    display: block;
+    width: 370px;
+}
+
+.add-text:before {
+    content:'';
+    width: 55px;
+    height: 1px;
+    display: block;
+    background: #e42f44;
+    position: absolute;
+    margin-left: -100px;
+    margin-top: 7px;
+}
